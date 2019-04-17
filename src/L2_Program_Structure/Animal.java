@@ -3,9 +3,9 @@ package L2_Program_Structure;
 public class Animal {
 	
 	//attributes
-	int age;
-	String gender;
-	int weightInLbs;
+	private int age;
+	private String gender;
+	private int weightInLbs;
 	
 	//constructor
 	public Animal(int age, String gender, int weightInLbs) {

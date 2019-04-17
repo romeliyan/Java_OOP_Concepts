@@ -10,22 +10,22 @@ public class Earth {
 		Scanner myScanner = new Scanner(System.in);
 		
 		//declare variables to store input data
-		int age = 0;
-		String name = null;
-		String eyeColor = null;
-		int height = 0;
-		
-		System.out.println("Enter name : ");
-		name = myScanner.next();
-		
-		System.out.println("Enter age : ");
-		age = myScanner.nextInt();
-		
-		System.out.println("Enter eye color : ");
-		eyeColor = myScanner.next();
-		
-		System.out.println("Enter height : ");
-		height = myScanner.nextInt();
+//		int age = 0;
+//		String name = null;
+//		String eyeColor = null;
+//		int height = 0;
+//		
+//		System.out.println("Enter name : ");
+//		name = myScanner.next();
+//		
+//		System.out.println("Enter age : ");
+//		age = myScanner.nextInt();
+//		
+//		System.out.println("Enter eye color : ");
+//		eyeColor = myScanner.next();
+//		
+//		System.out.println("Enter height : ");
+//		height = myScanner.nextInt();
 		
 		
 		
@@ -33,7 +33,7 @@ public class Earth {
 		Human tom;
 		
 		//assign variable values/ inserting from inputed fields
-		tom = new Human(name,age,height,eyeColor);
+		tom = new Human("roy",5,10,"pink");
 		
 		//tom.age = 5;
 		//tom.eyeColor = "brown";

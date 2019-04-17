@@ -4,9 +4,9 @@ package L3_Inheritance;
 public class Animal {
 	
 	//attributes
-	String gender;
-	int age; 
-	int weightInLbs;
+	private String gender;
+	private int age; 
+	private int weightInLbs;
 	
 	
 	//constructor
@@ -16,7 +16,7 @@ public class Animal {
 		this.weightInLbs = weightInLbs;
 	}
 	
-	//methods
+	//methods that do every animal
 	public void eat() {
 		System.out.println("Eating...");
 	}

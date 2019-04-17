@@ -7,6 +7,11 @@ public class Zoo {
 		Animal animal1 = new Animal(12, "Male", 23);
 		animal1.eat();
 		
+		Bird bird1 = new Bird();
+		bird1.fly();
+		
+		
+		
 	}
 	
 }
